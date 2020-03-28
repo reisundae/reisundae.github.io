@@ -1,0 +1,45 @@
+* {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: calc(10px + .25vw);
+    color: #333;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(2,31,75);
+    background: linear-gradient(135deg, rgba(2,31,75,1) 0%, rgba(76,59,113,1) 60%, rgba(17,82,104,1) 100%);
+}
+
+#grid {
+    margin: auto;
+    min-height: 100vh;
+    width: 50vw;
+    background-color: #dddddd;
+    display: grid;
+    grid-template-rows: 5vmax auto auto auto;
+}
+
+header {
+    background: #1e1e1e;
+}
+
+nav {
+    background: #1e1e1e;
+    height: min-content;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav li {
+    display: inline;
+    background: #dddddd
+}
