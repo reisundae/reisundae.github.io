@@ -18,9 +18,10 @@ body {
     min-height: max-content;
     max-width: 900px;
     width: 100vw;
+    height: 100vh;
     background-color: #dddddd;
     display: grid;
-    grid-template-rows: 5vmax auto auto auto;
+    grid-template-rows: 10vmax auto auto auto;
 }
 
 header {
