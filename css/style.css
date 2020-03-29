@@ -16,9 +16,8 @@ body {
 #grid {
     margin: auto;
     min-height: max-content;
-    min-width: 100vw;
     max-width: 900px;
-    width: 50vw;
+    width: auto;
     background-color: #dddddd;
     display: grid;
     grid-template-rows: 5vmax auto auto auto;
