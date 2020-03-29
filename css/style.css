@@ -15,7 +15,8 @@ body {
 
 #grid {
     margin: auto;
-    min-height: 100vh;
+    min-height: max-content;
+    min-width: 100vw;
     max-width: 900px;
     width: 50vw;
     background-color: #dddddd;
