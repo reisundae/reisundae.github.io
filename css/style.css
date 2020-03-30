@@ -16,7 +16,7 @@ body {
 #grid {  
     margin: auto;
     max-width: 900px;
-    height: 100vh;
+    height: auto;
     background-color: #dddddd;
     display: grid;
     grid-template-rows: 10vmax auto 1fr auto;
@@ -32,32 +32,44 @@ header {
 
 nav {
     background: #1e1e1e;
-    height: min-content;
     margin: 0px;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: center;
+    position: sticky;
+    top: 0;
 }
 
-nav a {
-    display: inline;
-    background: #1e1e1e;
+nav a, nav i {
+    height: 2.5vh;
     color: #dddddd;
     flex-grow: 1;
     text-align: center;
+    margin: auto;
 }
 
-nav a:hover {
+nav a:hover, nav a:hover i {
     background: #dddddd;
     color: #1e1e1e;
 }
 
 content {
-    margin: 2vw;
+    padding: 2vw;
+    flex-grow: 1;
 }
 
 footer {
-    margin: 2vw;
+    background: #1e1e1e;
+    padding: 2vw;
+}
+
+footer table, th, tr, td, i, a{
+    color: #ffffff;
+    margin: .2rem;
+}
+
+footer tr:hover a, tr:hover i {
+    color: rgba(17,82,104);
 }
