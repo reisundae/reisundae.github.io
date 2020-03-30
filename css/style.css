@@ -1,6 +1,6 @@
 * {
     font-family: 'Lexend Deca', sans-serif;
-    font-size: calc(12px + .25vw);
+    font-size: calc(16px + .1vmin);
     color: #333;
     text-decoration: none;
     box-sizing: border-box;
