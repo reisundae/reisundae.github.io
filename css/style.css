@@ -21,7 +21,7 @@ body {
     display: grid;
     grid-template-rows: 10vmax auto 1fr auto;
 
-    @media screen and (min-width: 900px){
+    @media screen and (min-width: 1080px){
         width: 900px;
     }
 }
@@ -43,7 +43,7 @@ nav {
 }
 
 nav a, nav i {
-    height: 2.5vh;
+    height: 2.5vmin;
     color: #dddddd;
     flex-grow: 1;
     text-align: center;
@@ -56,13 +56,13 @@ nav a:hover, nav a:hover i {
 }
 
 content {
-    padding: 2vw;
+    padding: 2vmin;
     flex-grow: 1;
 }
 
 footer {
     background: #1e1e1e;
-    padding: 2vw;
+    padding: 2vmin;
 }
 
 footer table, th, tr, td, i, a{
