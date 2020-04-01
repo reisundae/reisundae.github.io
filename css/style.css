@@ -1,6 +1,6 @@
 * {
     font-family: 'Lexend Deca', sans-serif;
-    font-size: calc(16px + .1vmin);
+    font-size: calc(12px + 1vh);
     color: #333;
     text-decoration: none;
     box-sizing: border-box;
@@ -9,17 +9,15 @@
 }
 
 body {
-    background: rgb(2,31,75);
-    background: linear-gradient(135deg, rgba(2,31,75,1) 0%, rgba(76,59,113,1) 60%, rgba(17,82,104,1) 100%);
+    background: linear-gradient(135deg, rgba(2,31,75,1) 0%, rgba(76,59,113,1) 60%, rgba(17,82,104,1) 100%) fixed no-repeat;
 }
 
 #grid {  
     margin: auto;
     max-width: 1080px;
-    height: auto;
-    background-color: #dddddd;
+    height: max-content;
     display: grid;
-    grid-template-rows: 10vmax auto 1fr auto;
+    grid-template-rows: 10vmax min-content max-content min-content;
 
     @media screen and (min-width: 1080px){
         width: 1080px;
@@ -28,11 +26,11 @@ body {
 
 header {
     background: #1e1e1e;
+    padding: 5vmin 1rem;
 }
 
 nav {
     background: #1e1e1e;
-    margin: 0px;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -43,7 +41,7 @@ nav {
 }
 
 nav a, nav i {
-    height: 2.5vmin;
+    padding: .75vmin;
     color: #dddddd;
     flex-grow: 1;
     text-align: center;
@@ -58,6 +56,9 @@ nav a:hover, nav a:hover i {
 content {
     padding: 2vmin;
     flex-grow: 1;
+    background: #dddddd;
+    font-size: .5rem;
+
 }
 
 footer {
