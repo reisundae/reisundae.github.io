@@ -17,11 +17,7 @@ nav_links:
 # 📜 Rules & Guidelines
 
 
-## Character Creation
-
-<div class="card">
-
-<h3>📖 Character Creation</h3>
+## 📖 Character Creation
 
 ### Basics
 - Starting Level: 3  
@@ -37,9 +33,6 @@ nav_links:
 - Avoid lone-wolf concepts unless discussed beforehand  
 - Prioritize teamwork, story hooks, and group cohesion  
 
-</div>
-
----
 
 ## Gameplay Rules
 
