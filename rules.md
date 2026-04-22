@@ -1,19 +1,3 @@
----
-layout: default
-title: Rules
-nav_links:
-  - title: Character Creation
-    anchor: character-creation
-  - title: Gameplay Rules
-    anchor: gameplay-rules
-  - title: Death & Consequences
-    anchor: death--consequences
-  - title: Session Structure
-    anchor: session-structure
-  - title: Table Expectations
-    anchor: table-expectations
----
-
 # 📜 Rules & Guidelines
 
 
