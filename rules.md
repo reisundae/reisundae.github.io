@@ -1,43 +1,108 @@
-# Rules & Guidelines
+---
+layout: default
+title: Rules
+---
 
-## 🧱 Character Creation
-- Starting level
-- Allowed books
-- Stat generation method
-- Starting equipment
+<div style="text-align:center; margin-bottom:20px;">
+
+### ✦ Quick Navigation ✦  
+[Character Creation](#character-creation) •  
+[Gameplay Rules](#gameplay-rules) •  
+[Death](#death--consequences) •  
+[Session Structure](#session-structure) •  
+[Table Expectations](#table-expectations)
+
+</div>
+
+# 📜 Rules & Guidelines
+
+## 📌 Quick Navigation
+- [Character Creation](#character-creation)
+- [Gameplay Rules](#gameplay-rules)
+- [Death & Consequences](#death--consequences)
+- [Session Structure](#session-structure)
+- [Table Expectations](#table-expectations)
 
 ---
 
-## ⚔️ Gameplay Rules
-Any house rules:
-- Flanking?
-- Crit rules?
-- Potions?
-- Death saves?
+<details open>
+  <summary>📖 Character Creation</summary>
+
+### Basics
+- Starting Level: 3  
+- Allowed Sources: PHB (other content by approval)  
+- Ability Scores: Point Buy or Standard Array  
+
+### Equipment
+- Starting gear from class/background  
+- +1 thematic item (flavor-first, minor or non-mechanical utility)  
+
+### Guidelines
+- Build characters that fit the tone of the campaign  
+- Avoid lone-wolf concepts unless discussed beforehand  
+- Prioritize teamwork, story hooks, and group cohesion  
+
+</details>
 
 ---
 
-## 🎲 Table Expectations
-- Respect players
-- Stay engaged
-- No rules lawyering mid-session (or define how you handle it)
+<details open>
+  <summary>⚔️ Gameplay Rules</summary>
+
+### Combat
+- Initiative: Standard D&D initiative rules  
+- Flanking: Optional  
+- Critical Hits: Double dice rolled (default)  
+
+### Potions
+- Bonus Action: Drink potion  
+- Action: Feed potion to another creature  
+
+### Rulings
+- DM rulings during play are final  
+- Clarifications handled after session when needed  
+- Keep gameplay flowing; resolve disputes later  
+
+</details>
 
 ---
 
-## ⏱️ Session Structure
-(Optional but helpful)
-- How sessions start
-- Downtime rules
-- Mission format (if any)
+<details open>
+  <summary>💀 Death & Consequences</summary>
+
+- Death saves follow standard rules  
+- Resurrection: Campaign-dependent  
+- The world reacts to failure and success  
+- Not all encounters are meant to be won  
+
+</details>
 
 ---
 
-## 💀 Death & Consequences
-Be clear:
-- Is death common?
-- Is resurrection available?
+<details open>
+  <summary>🧭 Session Structure</summary>
+
+1. Recap / re-entry  
+2. Immediate hook  
+3. Escalation (combat / exploration / social)  
+4. Climax / decision point  
+5. Resolution or retreat  
+
+- Sessions are mostly self-contained  
+- Player rotation may occur  
+- Downtime consequences may apply  
+
+</details>
 
 ---
 
-## 📜 Optional Rules
-Anything experimental or flexible
+<details open>
+  <summary>🤝 Table Expectations</summary>
+
+- Respect player spotlight  
+- Be ready on your turn  
+- Stay engaged  
+- Match tone of the scene  
+- Communicate absences early  
+
+</details>

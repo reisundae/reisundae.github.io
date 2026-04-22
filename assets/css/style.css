@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  background: #1f1710;
+  font-family: Georgia, serif;
+}
+
+/* Layout */
+.layout {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background: linear-gradient(#2b2117, #1a140d);
+  border-right: 2px solid #5a4630;
+  position: fixed;
+}
+
+.sidebar-inner {
+  padding: 20px;
+}
+
+.logo {
+  font-family: 'Cinzel', serif;
+  color: #d4b483;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar nav a {
+  display: block;
+  color: #c9b48a;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  transition: 0.2s;
+}
+
+.sidebar nav a:hover {
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+}
+
+/* Content Area */
+.content {
+  margin-left: 240px;
+  width: 100%;
+  padding: 40px;
+}
+
+/* Parchment */
+.parchment {
+  background: #f4e6c8;
+  padding: 40px;
+  border-radius: 12px;
+  border: 2px solid #c9b48a;
+  box-shadow: 0 0 40px rgba(0,0,0,0.6);
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Headers */
+h1, h2, h3 {
+  font-family: 'Cinzel', serif;
+  color: #3b2a1a;
+}
+
+/* ========================= */
+/* UPGRADED COLLAPSIBLE UI   */
+/* ========================= */
+
+details {
+  background: #efe0bd;
+  border: 1px solid #c9b48a;
+  border-radius: 10px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+/* Header */
+summary {
+  cursor: pointer;
+  padding: 15px 20px;
+  font-family: 'Cinzel', serif;
+  font-size: 1.1em;
+  background: linear-gradient(#e8d6ad, #d9c49a);
+  border-bottom: 1px solid #c9b48a;
+  position: relative;
+}
+
+/* Remove default triangle */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Custom arrow */
+summary::after {
+  content: "▼";
+  position: absolute;
+  right: 20px;
+  transition: 0.2s;
+}
+
+/* Rotate arrow when open */
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+/* Content inside */
+details > *:not(summary) {
+  padding: 15px 20px;
+}
+
+/* Fancy divider inside */
+details p, details ul {
+  margin-top: 10px;
+}
+
+/* Links */
+a {
+  color: #6b4b2a;
+}

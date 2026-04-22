@@ -1,6 +1,8 @@
-theme: jekyll-theme-cayman
+theme: minima
 title: Natural Juan - D&D Online
 description: A D&D campaign setting
 header_pages:
   - index.md
   - rules.md
+plugins:
+  - jekyll-feed

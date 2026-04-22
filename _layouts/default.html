@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+      <h2 class="logo">✦ Campaign ✦</h2>
+
+      <nav>
+        <a href="{{ '/' | relative_url }}">🏠 Home</a>
+        <a href="{{ '/rules' | relative_url }}">📜 Rules</a>
+        <a href="#">🧭 Primer</a>
+        <a href="#">🏰 Factions</a>
+      </nav>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="content">
+    <div class="parchment">
+      {{ content }}
+    </div>
+  </main>
+
+</div>
+
+</body>
+</html>
