@@ -46,22 +46,58 @@ body {
   color: #fff;
 }
 
-/* Content Area */
+/* Main content wrapper */
 .content {
   margin-left: 240px;
-  width: 100%;
-  padding: 40px;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
 }
 
-/* Parchment */
+/* Parchment panel */
 .parchment {
   background: #f4e6c8;
-  padding: 40px;
-  border-radius: 12px;
+  width: 100%;
+  max-width: 900px;
+
+  padding: 48px 56px;
+  border-radius: 14px;
+
   border: 2px solid #c9b48a;
   box-shadow: 0 0 40px rgba(0,0,0,0.6);
-  max-width: 900px;
-  margin: auto;
+
+  line-height: 1.6;
+}
+
+/* Fix default markdown spacing */
+.parchment h1 {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.parchment h2 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.parchment p,
+.parchment ul {
+  margin-bottom: 16px;
+}
+
+/* Better list spacing */
+.parchment ul {
+  padding-left: 22px;
+}
+
+/* Make collapsibles feel consistent */
+details {
+  margin: 18px 0;
+}
+
+summary {
+  padding: 14px 18px;
+  font-size: 1.05rem;
 }
 
 /* Headers */
