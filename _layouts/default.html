@@ -17,8 +17,16 @@
       <nav>
         <a href="{{ '/' | relative_url }}">🏠 Home</a>
         <a href="{{ '/rules' | relative_url }}">📜 Rules</a>
-        <a href="#">🧭 Setting Primer</a>
-        <a href="#">🏰 Factions</a>
+
+        {% if page.nav_links %}
+          <div class="nav-section-title">📌 Quick Links</div>
+
+          {% for item in page.nav_links %}
+            <a href="{{ '/rules#' | append: item.anchor | relative_url }}">
+              {{ item.title }}
+            </a>
+          {% endfor %}
+        {% endif %}
       </nav>
     </div>
   </aside>
