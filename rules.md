@@ -3,17 +3,6 @@ layout: default
 title: Rules
 ---
 
-<div style="text-align:center; margin-bottom:20px;">
-
-### ✦ Quick Navigation ✦  
-[Character Creation](#character-creation) •  
-[Gameplay Rules](#gameplay-rules) •  
-[Death](#death--consequences) •  
-[Session Structure](#session-structure) •  
-[Table Expectations](#table-expectations)
-
-</div>
-
 # 📜 Rules & Guidelines
 
 ## 📌 Quick Navigation
