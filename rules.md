@@ -14,8 +14,11 @@ title: Rules
 
 ---
 
-<details open>
-  <summary>📖 Character Creation</summary>
+## Character Creation
+
+<div class="card">
+
+<h3>📖 Character Creation</h3>
 
 ### Basics
 - Starting Level: 3  
@@ -31,12 +34,15 @@ title: Rules
 - Avoid lone-wolf concepts unless discussed beforehand  
 - Prioritize teamwork, story hooks, and group cohesion  
 
-</details>
+</div>
 
 ---
 
-<details open>
-  <summary>⚔️ Gameplay Rules</summary>
+## Gameplay Rules
+
+<div class="card">
+
+<h3>⚔️ Gameplay Rules</h3>
 
 ### Combat
 - Initiative: Standard D&D initiative rules  
@@ -52,24 +58,30 @@ title: Rules
 - Clarifications handled after session when needed  
 - Keep gameplay flowing; resolve disputes later  
 
-</details>
+</div>
 
 ---
 
-<details open>
-  <summary>💀 Death & Consequences</summary>
+## Death & Consequences
+
+<div class="card">
+
+<h3>💀 Death & Consequences</h3>
 
 - Death saves follow standard rules  
 - Resurrection: Campaign-dependent  
 - The world reacts to failure and success  
 - Not all encounters are meant to be won  
 
-</details>
+</div>
 
 ---
 
-<details open>
-  <summary>🧭 Session Structure</summary>
+## Session Structure
+
+<div class="card">
+
+<h3>🧭 Session Structure</h3>
 
 1. Recap / re-entry  
 2. Immediate hook  
@@ -81,12 +93,15 @@ title: Rules
 - Player rotation may occur  
 - Downtime consequences may apply  
 
-</details>
+</div>
 
 ---
 
-<details open>
-  <summary>🤝 Table Expectations</summary>
+## Table Expectations
+
+<div class="card">
+
+<h3>🤝 Table Expectations</h3>
 
 - Respect player spotlight  
 - Be ready on your turn  
@@ -94,4 +109,4 @@ title: Rules
 - Match tone of the scene  
 - Communicate absences early  
 
-</details>
+</div>
