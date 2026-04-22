@@ -69,7 +69,7 @@ body {
   line-height: 1.6;
 }
 
-/* Fix default markdown spacing */
+/* Typography spacing */
 .parchment h1 {
   margin-top: 0;
   margin-bottom: 24px;
@@ -85,102 +85,14 @@ body {
   margin-bottom: 16px;
 }
 
-/* Better list spacing */
 .parchment ul {
   padding-left: 22px;
-}
-
-/* Make collapsibles feel consistent */
-details {
-  margin: 18px 0;
-}
-
-summary {
-  padding: 14px 18px;
-  font-size: 1.05rem;
 }
 
 /* Headers */
 h1, h2, h3 {
   font-family: 'Cinzel', serif;
   color: #3b2a1a;
-}
-
-/* ========================= */
-/* COLLAPSIBLE UI (FIXED)    */
-/* ========================= */
-
-details {
-  background: #efe0bd;
-  border: 1px solid #c9b48a;
-  border-radius: 10px;
-
-  /* consistent spacing outside */
-  margin: 20px 0;
-
-  overflow: hidden;
-}
-
-/* Header */
-summary {
-  cursor: pointer;
-
-  /* better breathing room */
-  padding: 16px 22px;
-
-  font-family: 'Cinzel', serif;
-  font-size: 1.1em;
-
-  background: linear-gradient(#e8d6ad, #d9c49a);
-  border-bottom: 1px solid #c9b48a;
-
-  position: relative;
-
-  /* remove default list styling spacing quirks */
-  list-style: none;
-}
-
-/* Remove default triangle (modern + fallback) */
-summary::-webkit-details-marker {
-  display: none;
-}
-
-/* Custom arrow */
-summary::after {
-  content: "▼";
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: 0.2s ease;
-}
-
-/* Rotate arrow when open */
-details[open] summary::after {
-  transform: translateY(-50%) rotate(180deg);
-}
-
-/* Content area inside details */
-details > *:not(summary) {
-  padding: 18px 22px;
-
-  /* ensures paragraphs/lists don't feel glued together */
-  margin: 0;
-}
-
-/* Add controlled spacing for text blocks inside */
-details p {
-  margin: 10px 0;
-}
-
-details ul {
-  margin: 10px 0 10px 18px;
-  padding-left: 18px;
-}
-
-/* Optional: spacing between multiple inner elements */
-details > *:not(summary) > * {
-  margin-bottom: 10px;
 }
 
 /* Links */
