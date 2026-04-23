@@ -1,5 +1,9 @@
-# 📜 Rules & Guidelines
+---
+layout: default
+title: Natural Juan - D&D Online
+---
 
+# 📜 Rules & Guidelines
 
 ## 📖 Character Creation
 
