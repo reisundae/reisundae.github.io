@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Natural Juan - D&D Online</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+      <h2 class="logo">✦ Campaign ✦</h2>
+
+      <nav>
+        <a href="/">🏠 Home</a>
+        <a href="/getting-started">🛠️ Getting Started</a>
+        
+        
+        <a href="/rules">📜 Rules</a>
+      </nav>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="content">
+    <div class="parchment">
+      
+      <h1 id="-rules--guidelines">📜 Rules &amp; Guidelines</h1>
+
+<h2 id="character-creation">📖 Character Creation</h2>
+
+<h3 id="basics">Basics</h3>
+<ul>
+  <li>Starting Level: 3</li>
+  <li>Allowed Sources: PHB (other content by approval)</li>
+  <li>Ability Scores: Point Buy or Standard Array</li>
+</ul>
+
+<h3 id="equipment">Equipment</h3>
+<ul>
+  <li>Starting gear from class/background</li>
+  <li>+1 thematic item (flavor-first, minor or non-mechanical utility)</li>
+</ul>
+
+<h3 id="guidelines">Guidelines</h3>
+<ul>
+  <li>Build characters that fit the tone of the campaign</li>
+  <li>Avoid lone-wolf concepts unless discussed beforehand</li>
+  <li>Prioritize teamwork, story hooks, and group cohesion</li>
+</ul>
+
+<h2 id="gameplay-rules">Gameplay Rules</h2>
+
+<h3 id="combat">Combat</h3>
+<ul>
+  <li>Initiative: Standard D&amp;D initiative rules</li>
+  <li>Flanking: Optional</li>
+  <li>Critical Hits: Double dice rolled (default)</li>
+</ul>
+
+<h3 id="potions">Potions</h3>
+<ul>
+  <li>Bonus Action: Drink potion</li>
+  <li>Action: Feed potion to another creature</li>
+</ul>
+
+<h3 id="rulings">Rulings</h3>
+<ul>
+  <li>DM rulings during play are final</li>
+  <li>Clarifications handled after session when needed</li>
+  <li>Keep gameplay flowing; resolve disputes later</li>
+</ul>
+
+<hr />
+
+<h2 id="death-consequences">Death &amp; Consequences</h2>
+
+<ul>
+  <li>Death saves follow standard rules</li>
+  <li>Resurrection: Campaign-dependent</li>
+  <li>The world reacts to failure and success</li>
+  <li>Not all encounters are meant to be won</li>
+</ul>
+
+<hr />
+
+<h2 id="session-structure">Session Structure</h2>
+
+<ol>
+  <li>Recap / re-entry</li>
+  <li>Immediate hook</li>
+  <li>Escalation (combat / exploration / social)</li>
+  <li>Climax / decision point</li>
+  <li>Resolution or retreat</li>
+</ol>
+
+<ul>
+  <li>Sessions are mostly self-contained</li>
+  <li>Player rotation may occur</li>
+  <li>Downtime consequences may apply</li>
+</ul>
+
+<hr />
+
+<h2 id="table-expectations">Table Expectations</h2>
+
+<ul>
+  <li>Respect player spotlight</li>
+  <li>Be ready on your turn</li>
+  <li>Stay engaged</li>
+  <li>Match tone of the scene</li>
+  <li>Communicate absences early</li>
+</ul>
+
+    </div>
+  </main>
+
+</div>
+
+<script>
+  (function () {
+    const sectionLinks = Array.from(document.querySelectorAll('a[data-section-link="true"]'));
+    if (!sectionLinks.length) return;
+
+    const byAnchor = new Map();
+    sectionLinks.forEach((link) => {
+      const anchor = link.dataset.anchor;
+      if (anchor) byAnchor.set(anchor, link);
+    });
+
+    const setActive = (anchor) => {
+      sectionLinks.forEach((link) => link.classList.remove("is-active"));
+      const targetLink = byAnchor.get(anchor);
+      if (targetLink) targetLink.classList.add("is-active");
+    };
+
+    const headingTargets = Array.from(byAnchor.keys())
+      .map((id) => document.getElementById(id))
+      .filter(Boolean);
+
+    if (!headingTargets.length) return;
+
+    const updateActiveFromScroll = () => {
+      const markerY = window.scrollY + 140;
+      let current = headingTargets[0];
+      for (const heading of headingTargets) {
+        if (heading.offsetTop <= markerY) current = heading;
+        else break;
+      }
+      if (current) setActive(current.id);
+    };
+
+    sectionLinks.forEach((link) => {
+      link.addEventListener("click", (event) => {
+        const anchor = link.dataset.anchor;
+        if (!anchor) return;
+        const heading = document.getElementById(anchor);
+        if (!heading) return;
+        event.preventDefault();
+        heading.scrollIntoView({ block: "start", behavior: "auto" });
+        history.replaceState(null, "", "#" + anchor);
+        setActive(anchor);
+      });
+    });
+
+    const initialHash = window.location.hash.replace(/^#/, "");
+    if (initialHash && byAnchor.has(initialHash)) setActive(initialHash);
+    else updateActiveFromScroll();
+
+    window.addEventListener("scroll", updateActiveFromScroll, { passive: true });
+    window.addEventListener("resize", updateActiveFromScroll);
+
+    window.addEventListener("hashchange", () => {
+      const nextHash = window.location.hash.replace(/^#/, "");
+      if (nextHash && byAnchor.has(nextHash)) setActive(nextHash);
+      else updateActiveFromScroll();
+    });
+  })();
+</script>
+
+</body>
+</html>

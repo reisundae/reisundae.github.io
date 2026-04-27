@@ -1,6 +1,7 @@
 theme: minima
 title: Natural Juan - D&D Online
 description: A D&D campaign setting
+preview_mode: false
 header_pages:
   - index.md
   - rules.md

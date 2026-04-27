@@ -1,11 +1,22 @@
 ---
 layout: default
 title: Natural Juan - D&D Online
+nav_links:
+  - title: Character Creation
+    anchor: character-creation
+  - title: Gameplay Rules
+    anchor: gameplay-rules
+  - title: Death & Consequences
+    anchor: death-consequences
+  - title: Session Structure
+    anchor: session-structure
+  - title: Table Expectations
+    anchor: table-expectations
 ---
 
 # 📜 Rules & Guidelines
 
-## 📖 Character Creation
+## 📖 Character Creation {#character-creation}
 
 ### Basics
 - Starting Level: 3  
@@ -22,11 +33,7 @@ title: Natural Juan - D&D Online
 - Prioritize teamwork, story hooks, and group cohesion  
 
 
-## Gameplay Rules
-
-<div class="card">
-
-<h3>⚔️ Gameplay Rules</h3>
+## Gameplay Rules {#gameplay-rules}
 
 ### Combat
 - Initiative: Standard D&D initiative rules  
@@ -42,30 +49,18 @@ title: Natural Juan - D&D Online
 - Clarifications handled after session when needed  
 - Keep gameplay flowing; resolve disputes later  
 
-</div>
-
 ---
 
-## Death & Consequences
-
-<div class="card">
-
-<h3>💀 Death & Consequences</h3>
+## Death & Consequences {#death-consequences}
 
 - Death saves follow standard rules  
 - Resurrection: Campaign-dependent  
 - The world reacts to failure and success  
 - Not all encounters are meant to be won  
 
-</div>
-
 ---
 
-## Session Structure
-
-<div class="card">
-
-<h3>🧭 Session Structure</h3>
+## Session Structure {#session-structure}
 
 1. Recap / re-entry  
 2. Immediate hook  
@@ -77,20 +72,12 @@ title: Natural Juan - D&D Online
 - Player rotation may occur  
 - Downtime consequences may apply  
 
-</div>
-
 ---
 
-## Table Expectations
-
-<div class="card">
-
-<h3>🤝 Table Expectations</h3>
+## Table Expectations {#table-expectations}
 
 - Respect player spotlight  
 - Be ready on your turn  
 - Stay engaged  
 - Match tone of the scene  
 - Communicate absences early  
-
-</div>

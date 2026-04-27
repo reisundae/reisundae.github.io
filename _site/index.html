@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <title>Natural Juan - D&D Online</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body{% if site.preview_mode %} class="preview-mode"{% endif %}>
+<body>
 
 <div class="layout">
 
@@ -15,22 +15,11 @@
       <h2 class="logo">✦ Campaign ✦</h2>
 
       <nav>
-        <a href="{{ '/' | relative_url }}">🏠 Home</a>
-        <a href="{{ '/getting-started' | relative_url }}">🛠️ Getting Started</a>
-        {% assign getting_started_page = site.pages | where_exp: "item", "item.url contains 'getting-started'" | first %}
-        {% if getting_started_page and getting_started_page.nav_links and page.url contains 'getting-started' %}
-          {% for item in getting_started_page.nav_links %}
-            <a
-              class="nav-link-subitem"
-              data-section-link="true"
-              data-anchor="{{ item.anchor }}"
-              href="#{{ item.anchor }}"
-            >
-              {{ item.title }}
-            </a>
-          {% endfor %}
-        {% endif %}
-        <a href="{{ '/rules' | relative_url }}">📜 Rules</a>
+        <a href="/">🏠 Home</a>
+        <a href="/getting-started">🛠️ Getting Started</a>
+        
+        
+        <a href="/rules">📜 Rules</a>
       </nav>
     </div>
   </aside>
@@ -38,12 +27,76 @@
   <!-- Main Content -->
   <main class="content">
     <div class="parchment">
-      {% if site.preview_mode %}
-        <div class="preview-banner">
-          Preview mode: local view only (no Hubstaff push).
-        </div>
-      {% endif %}
-      {{ content }}
+      
+      <h1 id="-campaign-primer">🏰 Campaign Primer</h1>
+
+<h2 id="overview">🌍 Overview</h2>
+
+<p>A short paragraph (3–5 sentences max):</p>
+
+<ul>
+  <li>What the world is</li>
+  <li>What’s happening right now</li>
+  <li>Why it matters to players</li>
+</ul>
+
+<hr />
+
+<h2 id="premise">🧭 The Premise</h2>
+
+<p>What players actually <em>do</em> in the campaign.</p>
+
+<p>Examples:</p>
+<ul>
+  <li>Explore unknown lands</li>
+  <li>Survive a collapsing city</li>
+  <li>Take missions from factions</li>
+</ul>
+
+<hr />
+
+<h2 id="player-role">🧍 Player Role</h2>
+
+<p>Who the players are in the world:</p>
+
+<ul>
+  <li>Adventurers</li>
+  <li>Mercenaries</li>
+  <li>Survivors</li>
+  <li>Agents</li>
+</ul>
+
+<hr />
+
+<h2 id="play-style">🎲 Play Style</h2>
+
+<p>Set expectations:</p>
+
+<ul>
+  <li>Combat-heavy / RP-heavy / mixed</li>
+  <li>Episodic or continuous</li>
+  <li>Serious vs light tone</li>
+</ul>
+
+<hr />
+
+<h2 id="tone-themes">⚠️ Tone &amp; Themes</h2>
+
+<p>Examples:</p>
+
+<ul>
+  <li>Heroic fantasy</li>
+  <li>Dark survival</li>
+  <li>Political intrigue</li>
+  <li>Exploration</li>
+</ul>
+
+<hr />
+
+<h2 id="starting-point">🪶 Starting Point</h2>
+
+<p>Where and how the campaign begins.</p>
+
     </div>
   </main>
 

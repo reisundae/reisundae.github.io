@@ -1,12 +1,24 @@
 ---
 layout: default
 title: Natural Juan - D&D Online
+nav_links:
+  - title: Overview
+    anchor: overview
+  - title: The Premise
+    anchor: premise
+  - title: Player Role
+    anchor: player-role
+  - title: Play Style
+    anchor: play-style
+  - title: Tone & Themes
+    anchor: tone-themes
+  - title: Starting Point
+    anchor: starting-point
 ---
 
 # 🏰 Campaign Primer
 
-<details open>
-  <summary>🌍 Overview</summary>
+## 🌍 Overview {#overview}
 
 A short paragraph (3–5 sentences max):
 
@@ -14,12 +26,9 @@ A short paragraph (3–5 sentences max):
 - What’s happening right now  
 - Why it matters to players  
 
-</details>
-
 ---
 
-<details>
-  <summary>🧭 The Premise</summary>
+## 🧭 The Premise {#premise}
 
 What players actually *do* in the campaign.
 
@@ -28,12 +37,9 @@ Examples:
 - Survive a collapsing city  
 - Take missions from factions  
 
-</details>
-
 ---
 
-<details>
-  <summary>🧍 Player Role</summary>
+## 🧍 Player Role {#player-role}
 
 Who the players are in the world:
 
@@ -42,12 +48,9 @@ Who the players are in the world:
 - Survivors  
 - Agents  
 
-</details>
-
 ---
 
-<details>
-  <summary>🎲 Play Style</summary>
+## 🎲 Play Style {#play-style}
 
 Set expectations:
 
@@ -55,12 +58,9 @@ Set expectations:
 - Episodic or continuous  
 - Serious vs light tone  
 
-</details>
-
 ---
 
-<details>
-  <summary>⚠️ Tone & Themes</summary>
+## ⚠️ Tone & Themes {#tone-themes}
 
 Examples:
 
@@ -69,13 +69,8 @@ Examples:
 - Political intrigue  
 - Exploration  
 
-</details>
-
 ---
 
-<details>
-  <summary>🪶 Starting Point</summary>
+## 🪶 Starting Point {#starting-point}
 
 Where and how the campaign begins.
-
-</details>
